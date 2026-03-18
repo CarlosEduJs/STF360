@@ -1,5 +1,6 @@
 [
   {
+    "$schema": "./ministers.schema.json",
     "id": "ministro-alpha",
     "name": "Ministro Alpha",
     "role": "Ministro do STF",
