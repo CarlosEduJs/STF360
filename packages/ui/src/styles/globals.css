@@ -116,6 +116,12 @@
     --color-sidebar-border: var(--sidebar-border);
     --color-sidebar-ring: var(--sidebar-ring);
     --font-sans: var(--font-sans);
+    --font-heading: var(--font-urbanist);
+    --font-body: var(--font-libre-franklin);
+    --font-mono: var(--font-jetbrains-mono);
+    --font-urbanist: var(--font-urbanist);
+    --font-libre-franklin: var(--font-libre-franklin);
+    --font-jetbrains-mono: var(--font-jetbrains-mono);
 }
 
 @layer base {
@@ -124,5 +130,40 @@
     }
   body {
     @apply bg-background text-foreground;
+    }
+  h1 {
+    font-family: var(--font-heading);
+    font-size: 2.25rem;
+    line-height: 1.15;
+    letter-spacing: -0.03em;
+    font-weight: 700;
+    }
+  h2 {
+    font-family: var(--font-heading);
+    font-size: 1.875rem;
+    line-height: 1.2;
+    letter-spacing: -0.025em;
+    font-weight: 600;
+    }
+  h3 {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    font-weight: 600;
+    }
+  h4, h5, h6 {
+    font-family: var(--font-heading);
+    letter-spacing: -0.01em;
+    }
+  body, p {
+    font-family: var(--font-body);
+    line-height: 1.6;
+    }
+  code, pre {
+    font-family: var(--font-mono);
+    }
+  html {
+    @apply font-urbanist font-libre-franklin font-jetbrains-mono;
     }
 }
