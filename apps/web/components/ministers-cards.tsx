@@ -6,19 +6,19 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Input } from '@workspace/ui/components/input';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@workspace/ui/components/select';
 import { Avatar, AvatarFallback, AvatarImage } from '@workspace/ui/components/avatar';
-import { getAllMinistersSummary, formatAppointmentDate, yearsOnCourt } from '@/lib/data/mock-data';
+import { useMinisters } from '@/hooks';
+import { formatAppointmentDate, yearsOnCourt } from '@/lib/data/mock-data';
 import { useQueryState } from 'nuqs';
 import type { MinisterSummary } from '@/types';
 
-const ministers = getAllMinistersSummary();
-
-const positions = [...new Set(ministers.map((m) => m.position))];
-const appointedByOptions = [...new Set(ministers.map((m) => m.appointedBy))];
-
 export default function MinistersCards() {
+  const { ministers, isLoading, error } = useMinisters();
   const [search, setSearch] = useState('');
   const [positionFilter, setPositionFilter] = useQueryState('position', { defaultValue: 'Todos os cargos' });
   const [appointedByFilter, setAppointedByFilter] = useQueryState('appointedBy', { defaultValue: 'Todos' });
+
+  const positions = useMemo(() => [...new Set(ministers.map((m) => m.position))], [ministers]);
+  const appointedByOptions = useMemo(() => [...new Set(ministers.map((m) => m.appointedBy))], [ministers]);
 
   const filtered = useMemo(() => {
     return ministers.filter((m) => {
@@ -35,7 +35,15 @@ export default function MinistersCards() {
 
       return matchesSearch && matchesPosition && matchesAppointedBy;
     });
-  }, [search, positionFilter, appointedByFilter]);
+  }, [ministers, search, positionFilter, appointedByFilter]);
+
+  if (isLoading) {
+    return <p className="text-sm text-muted-foreground py-8 text-center">Carregando ministros...</p>;
+  }
+
+  if (error) {
+    return <p className="text-sm text-destructive py-8 text-center">{error}</p>;
+  }
 
   return (
     <div className="flex flex-col gap-6">
