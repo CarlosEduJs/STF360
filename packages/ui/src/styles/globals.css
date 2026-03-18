@@ -166,4 +166,12 @@
   html {
     @apply font-urbanist font-libre-franklin font-jetbrains-mono;
     }
+
+  .padding-base-x {
+    @apply px-4 md:px-12 lg:px-24 xl:px-60;
+  }
+
+  .padding-base-y {
+    @apply py-2 md:py-4;
+  }
 }

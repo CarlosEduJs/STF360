@@ -4,6 +4,9 @@ import "@workspace/ui/globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { cn } from "@workspace/ui/lib/utils"
 
+import Header from "@/components/header"
+import Footer from "@/components/footer"
+
 const jetbrainsMono = JetBrains_Mono({subsets:['greek','cyrillic','cyrillic-ext','latin','latin-ext','vietnamese'],weight:['100','200','300','400','500','600','700','800'],variable:'--font-jetbrains-mono'});
 
 const libreFranklin = Libre_Franklin({subsets:['vietnamese','cyrillic','cyrillic-ext','latin','latin-ext','vietnamese'],weight:['100','200','300','400','500','600','700','800','900'],variable:'--font-libre-franklin'});
@@ -24,7 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="pt-br"
       suppressHydrationWarning
       className={cn(
               "antialiased",
@@ -33,7 +36,11 @@ export default function RootLayout({
             , "font-urbanist", "font-libre-franklin", "font-jetbrains-mono", urbanist.variable, libreFranklin.variable, jetbrainsMono.variable)}
     >
       <body>
-        <ThemeProvider>{children}</ThemeProvider>
+        <ThemeProvider>
+          <Header />
+          {children}
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   )
