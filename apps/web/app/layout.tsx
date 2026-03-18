@@ -7,6 +7,8 @@ import { cn } from "@workspace/ui/lib/utils"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 
+import { NuqsAdapter } from 'nuqs/adapters/next/app'
+
 const jetbrainsMono = JetBrains_Mono({subsets:['greek','cyrillic','cyrillic-ext','latin','latin-ext','vietnamese'],weight:['100','200','300','400','500','600','700','800'],variable:'--font-jetbrains-mono'});
 
 const libreFranklin = Libre_Franklin({subsets:['vietnamese','cyrillic','cyrillic-ext','latin','latin-ext','vietnamese'],weight:['100','200','300','400','500','600','700','800','900'],variable:'--font-libre-franklin'});
@@ -36,11 +38,13 @@ export default function RootLayout({
             , "font-urbanist", "font-libre-franklin", "font-jetbrains-mono", urbanist.variable, libreFranklin.variable, jetbrainsMono.variable)}
     >
       <body>
-        <ThemeProvider>
-          <Header />
-          {children}
-          <Footer />
-        </ThemeProvider>
+        <NuqsAdapter>
+          <ThemeProvider>
+            <Header />
+            {children}
+            <Footer />
+          </ThemeProvider>
+        </NuqsAdapter>
       </body>
     </html>
   )
