@@ -1,0 +1,959 @@
+[
+  {
+    "id": "ministro-alpha",
+    "name": "Ministro Alpha",
+    "role": "Ministro do STF",
+    "position": "Presidente",
+    "appointedBy": "Presidente Primário",
+    "appointedAt": "2015-03-03",
+    "birthYear": 1958,
+    "birthState": "Paraná",
+    "education": "Universidade Pública E",
+    "photoUrl": "https://placehold.co/300x400/1a3a5c/ffffff?text=Alpha",
+    "bio": "Ministro Alpha é natural de Roncador (PR). Foi professor de Direito Constitucional e Direito Civil na Univ E por mais de duas décadas antes de ser indicado ao STF. É conhecido por sua atuação na Operação Lava Jato como relator e por posições garantistas em matéria penal.",
+    "news": [
+      {
+        "title": "Alpha suspende decreto que alterava regras de licenciamento ambiental em áreas de proteção",
+        "url": "https://example.com/noticias/fachin-suspende-decreto-ambiental",
+        "source": "Folha de S.Paulo",
+        "publishedAt": "2026-03-17T10:30:00Z"
+      },
+      {
+        "title": "Presidente do STF defende fortalecimento das instituições democráticas em discurso na OAB",
+        "url": "https://example.com/noticias/fachin-discurso-oab",
+        "source": "O Globo",
+        "publishedAt": "2026-03-15T14:00:00Z"
+      },
+      {
+        "title": "Alpha vota pela inconstitucionalidade de norma que restringia acesso à defensoria pública",
+        "url": "https://example.com/noticias/fachin-defensoria-publica",
+        "source": "Conjur",
+        "publishedAt": "2026-03-12T09:15:00Z"
+      },
+      {
+        "title": "STF sob presidência de Alpha retoma julgamentos de grande repercussão em março",
+        "url": "https://example.com/noticias/stf-fachin-marco",
+        "source": "Valor Econômico",
+        "publishedAt": "2026-03-10T08:00:00Z"
+      },
+      {
+        "title": "Alpha concede liminar suspendendo lei estadual que proibia linguagem neutra em escolas",
+        "url": "https://example.com/noticias/fachin-linguagem-neutra",
+        "source": "G1",
+        "publishedAt": "2026-03-08T16:45:00Z"
+      }
+    ],
+    "decisions": [
+      {
+        "case": "ADI 7432",
+        "type": "Ação Direta de Inconstitucionalidade",
+        "outcome": "Procedente",
+        "date": "2026-03-14",
+        "sourceUrl": "https://example.com/stf/adi-7432",
+        "summary": "Declarou inconstitucional dispositivo de lei estadual que vedava o ensino de história e cultura afro-brasileira em escolas particulares, por violação ao art. 242 da CF."
+      },
+      {
+        "case": "HC 198765",
+        "type": "Habeas Corpus",
+        "outcome": "Deferido",
+        "date": "2026-03-10",
+        "sourceUrl": "https://example.com/stf/hc-198765",
+        "summary": "Concedeu ordem para trancar ação penal por ausência de justa causa, reconhecendo ilicitude de provas obtidas sem autorização judicial prévia."
+      },
+      {
+        "case": "RE 1054110",
+        "type": "Recurso Extraordinário",
+        "outcome": "Provido",
+        "date": "2026-03-05",
+        "sourceUrl": "https://example.com/stf/re-1054110",
+        "summary": "Reconheceu repercussão geral e proveu recurso para assegurar direito de servidores públicos à revisão de benefício previdenciário com base em legislação mais favorável."
+      },
+      {
+        "case": "MS 38901",
+        "type": "Mandado de Segurança",
+        "outcome": "Indeferido",
+        "date": "2026-02-28",
+        "sourceUrl": "https://example.com/stf/ms-38901",
+        "summary": "Indeferiu mandado de segurança impetrado por partido político contra ato do TSE que cassou registro de candidatura por irregularidades na prestação de contas."
+      },
+      {
+        "case": "ADPF 812",
+        "type": "Arguição de Descumprimento de Preceito Fundamental",
+        "outcome": "Parcialmente Procedente",
+        "date": "2026-02-20",
+        "sourceUrl": "https://example.com/stf/adpf-812",
+        "summary": "Julgou parcialmente procedente arguição para declarar estado de coisas inconstitucional no sistema prisional de três estados, determinando elaboração de plano de ação."
+      }
+    ]
+  },
+  {
+    "id": "ministro-beta",
+    "name": "Ministro Beta",
+    "role": "Ministro do STF",
+    "position": "Vice-Presidente",
+    "appointedBy": "Presidente Quinário",
+    "appointedAt": "2017-02-22",
+    "birthYear": 1968,
+    "birthState": "São Paulo",
+    "education": "Universidade Pública H",
+    "photoUrl": "https://placehold.co/300x400/1a3a5c/ffffff?text=Beta",
+    "bio": "Ministro Beta é natural de São Paulo (SP). Foi Secretário de Segurança Pública do Estado de São Paulo e Ministro da Justiça antes de ser indicado ao STF. É doutor em Direito do Estado pela Univ H e autor de obras de referência em Direito Constitucional.",
+    "news": [
+      {
+        "title": "Beta determina desbloqueio de contas de empresa investigada após pagamento de fiança",
+        "url": "https://example.com/noticias/moraes-desbloqueio-contas",
+        "source": "Estadão",
+        "publishedAt": "2026-03-16T11:00:00Z"
+      },
+      {
+        "title": "Vice-presidente do STF profere voto divergente em caso sobre imunidade parlamentar",
+        "url": "https://example.com/noticias/moraes-imunidade-parlamentar",
+        "source": "Conjur",
+        "publishedAt": "2026-03-13T15:30:00Z"
+      },
+      {
+        "title": "Beta nega pedido de habeas corpus a réu condenado por crimes eleitorais",
+        "url": "https://example.com/noticias/moraes-nega-hc-eleitoral",
+        "source": "UOL",
+        "publishedAt": "2026-03-11T09:00:00Z"
+      },
+      {
+        "title": "Ministro mantém prisão preventiva de investigado em inquérito de desinformação",
+        "url": "https://example.com/noticias/moraes-prisao-preventiva",
+        "source": "Folha de S.Paulo",
+        "publishedAt": "2026-03-07T17:20:00Z"
+      },
+      {
+        "title": "Ministro Beta participa de conferência internacional sobre democracia digital",
+        "url": "https://example.com/noticias/moraes-conferencia-democracia",
+        "source": "O Globo",
+        "publishedAt": "2026-03-04T10:00:00Z"
+      }
+    ],
+    "decisions": [
+      {
+        "case": "INQ 4781",
+        "type": "Inquérito",
+        "outcome": "Recebida denúncia",
+        "date": "2026-03-12",
+        "sourceUrl": "https://example.com/stf/inq-4781",
+        "summary": "Recebeu denúncia do Ministério Público Federal contra investigados por suposta organização criminosa voltada à disseminação de notícias falsas e ataques às instituições democráticas."
+      },
+      {
+        "case": "HC 201234",
+        "type": "Habeas Corpus",
+        "outcome": "Indeferido",
+        "date": "2026-03-08",
+        "sourceUrl": "https://example.com/stf/hc-201234",
+        "summary": "Indeferiu pedido de habeas corpus, mantendo prisão preventiva de investigado por entender presentes os requisitos legais para a custódia cautelar."
+      },
+      {
+        "case": "ADI 6387",
+        "type": "Ação Direta de Inconstitucionalidade",
+        "outcome": "Medida Cautelar Deferida",
+        "date": "2026-02-25",
+        "sourceUrl": "https://example.com/stf/adi-6387",
+        "summary": "Deferiu medida cautelar para suspender dispositivos de resolução do TSE que alteravam regras de propaganda eleitoral em redes sociais, até julgamento definitivo."
+      },
+      {
+        "case": "RCL 54321",
+        "type": "Reclamação",
+        "outcome": "Procedente",
+        "date": "2026-02-18",
+        "sourceUrl": "https://example.com/stf/rcl-54321",
+        "summary": "Julgou procedente reclamação para cassar decisão de tribunal inferior que havia descumprido entendimento firmado pelo STF em sede de repercussão geral."
+      },
+      {
+        "case": "Pet 9876",
+        "type": "Petição",
+        "outcome": "Deferida",
+        "date": "2026-02-10",
+        "sourceUrl": "https://example.com/stf/pet-9876",
+        "summary": "Deferiu pedido de diligências para oitiva de testemunhas no âmbito de inquérito que apura crimes contra o Estado Democrático de Direito."
+      }
+    ]
+  },
+  {
+    "id": "ministro-gamma",
+    "name": "Ministro Gamma",
+    "role": "Ministro do STF",
+    "position": "Decano",
+    "appointedBy": "Presidente Secundário",
+    "appointedAt": "2002-06-20",
+    "birthYear": 1955,
+    "birthState": "Mato Grosso",
+    "education": "Universidade Pública F e Universidade Estrangeira G",
+    "photoUrl": "https://placehold.co/300x400/1a3a5c/ffffff?text=Gamma",
+    "bio": "Ministro Gamma é natural de Diamantino (MT). É doutor em Direito pela Universidade de Münster, na Alemanha, e um dos maiores especialistas brasileiros em Direito Constitucional. Foi Advogado-Geral da União e presidente do STF por dois mandatos (2008–2010).",
+    "news": [
+      {
+        "title": "Ministro Gamma critica proposta de emenda constitucional que limita poderes do STF",
+        "url": "https://example.com/noticias/gilmar-critica-pec",
+        "source": "Valor Econômico",
+        "publishedAt": "2026-03-17T08:30:00Z"
+      },
+      {
+        "title": "Decano do STF defende revisão da jurisprudência sobre prisão em segunda instância",
+        "url": "https://example.com/noticias/gilmar-segunda-instancia",
+        "source": "Conjur",
+        "publishedAt": "2026-03-14T13:00:00Z"
+      },
+      {
+        "title": "Ministro Gamma concede liminar em caso de extradição controverso",
+        "url": "https://example.com/noticias/gilmar-extradicao",
+        "source": "Folha de S.Paulo",
+        "publishedAt": "2026-03-11T10:45:00Z"
+      },
+      {
+        "title": "Ministro mais antigo do STF completa 24 anos na corte e faz balanço de carreira",
+        "url": "https://example.com/noticias/gilmar-24-anos-stf",
+        "source": "O Globo",
+        "publishedAt": "2026-03-06T09:00:00Z"
+      },
+      {
+        "title": "Gamma vota contra modulação de efeitos em julgamento tributário bilionário",
+        "url": "https://example.com/noticias/gilmar-modulacao-tributario",
+        "source": "Estadão",
+        "publishedAt": "2026-03-02T16:00:00Z"
+      }
+    ],
+    "decisions": [
+      {
+        "case": "RE 878694",
+        "type": "Recurso Extraordinário",
+        "outcome": "Provido",
+        "date": "2026-03-11",
+        "sourceUrl": "https://example.com/stf/re-878694",
+        "summary": "Em sede de repercussão geral, fixou tese de que a União não pode cobrar ICMS sobre operações de exportação de produtos semielaborados após a promulgação da EC 42/2003."
+      },
+      {
+        "case": "HC 199001",
+        "type": "Habeas Corpus",
+        "outcome": "Deferido",
+        "date": "2026-03-06",
+        "sourceUrl": "https://example.com/stf/hc-199001",
+        "summary": "Concedeu habeas corpus para reconhecer excesso de prazo na instrução criminal, determinando o imediato relaxamento da prisão preventiva do paciente."
+      },
+      {
+        "case": "Ext 1567",
+        "type": "Extradição",
+        "outcome": "Deferida parcialmente",
+        "date": "2026-02-27",
+        "sourceUrl": "https://example.com/stf/ext-1567",
+        "summary": "Deferiu parcialmente pedido de extradição formulado por governo estrangeiro, excluindo crimes de natureza política do rol de infrações que fundamentam a entrega."
+      },
+      {
+        "case": "ADI 5543",
+        "type": "Ação Direta de Inconstitucionalidade",
+        "outcome": "Procedente",
+        "date": "2026-02-19",
+        "sourceUrl": "https://example.com/stf/adi-5543",
+        "summary": "Declarou inconstitucional resolução do Conselho Federal de Medicina que vedava a realização de procedimentos de reprodução assistida por casais homoafetivos."
+      },
+      {
+        "case": "MS 37654",
+        "type": "Mandado de Segurança",
+        "outcome": "Deferido",
+        "date": "2026-02-12",
+        "sourceUrl": "https://example.com/stf/ms-37654",
+        "summary": "Deferiu mandado de segurança para garantir a posse de candidato aprovado em concurso público dentro do prazo de validade, afastando ato omissivo da administração."
+      }
+    ]
+  },
+  {
+    "id": "ministra-delta",
+    "name": "Ministra Delta",
+    "role": "Ministra do STF",
+    "position": "Ministra",
+    "appointedBy": "Presidente Quaternário",
+    "appointedAt": "2006-06-21",
+    "birthYear": 1954,
+    "birthState": "Minas Gerais",
+    "education": "Universidade Privada A",
+    "photoUrl": "https://placehold.co/300x400/1a3a5c/ffffff?text=Delta",
+    "bio": "Ministra Delta Antunes Rocha é natural de Montes Claros (MG). Foi procuradora do Estado de Minas Gerais e professora universitária antes de integrar o STF. Foi presidente do STF e do TSE (2016–2018), período em que presidiu as eleições de 2018.",
+    "news": [
+      {
+        "title": "Ministra Delta vota pela manutenção de cotas raciais em universidades federais",
+        "url": "https://example.com/noticias/carmen-cotas-raciais",
+        "source": "G1",
+        "publishedAt": "2026-03-16T14:00:00Z"
+      },
+      {
+        "title": "Ministra profere palestra sobre igualdade de gênero no Poder Judiciário",
+        "url": "https://example.com/noticias/carmen-igualdade-genero",
+        "source": "Conjur",
+        "publishedAt": "2026-03-13T10:30:00Z"
+      },
+      {
+        "title": "Ministra Delta suspende resolução estadual que restringia direitos de pessoas trans",
+        "url": "https://example.com/noticias/carmen-direitos-trans",
+        "source": "Folha de S.Paulo",
+        "publishedAt": "2026-03-09T09:00:00Z"
+      },
+      {
+        "title": "Ministra do STF participa de evento sobre combate à violência doméstica",
+        "url": "https://example.com/noticias/carmen-violencia-domestica",
+        "source": "O Globo",
+        "publishedAt": "2026-03-05T15:00:00Z"
+      },
+      {
+        "title": "Ministra Delta nega liminar em ação que questionava regras de financiamento eleitoral",
+        "url": "https://example.com/noticias/carmen-financiamento-eleitoral",
+        "source": "Estadão",
+        "publishedAt": "2026-03-01T11:00:00Z"
+      }
+    ],
+    "decisions": [
+      {
+        "case": "ADC 41",
+        "type": "Ação Declaratória de Constitucionalidade",
+        "outcome": "Procedente",
+        "date": "2026-03-10",
+        "sourceUrl": "https://example.com/stf/adc-41",
+        "summary": "Declarou constitucional a reserva de vagas para negros em concursos públicos federais, estaduais e municipais, reafirmando a validade das políticas de ação afirmativa."
+      },
+      {
+        "case": "RE 1045273",
+        "type": "Recurso Extraordinário",
+        "outcome": "Provido",
+        "date": "2026-03-04",
+        "sourceUrl": "https://example.com/stf/re-1045273",
+        "summary": "Fixou tese de repercussão geral reconhecendo o direito de mulheres vítimas de violência doméstica ao afastamento do trabalho sem prejuízo do salário pelo prazo necessário à proteção."
+      },
+      {
+        "case": "ADPF 779",
+        "type": "Arguição de Descumprimento de Preceito Fundamental",
+        "outcome": "Procedente",
+        "date": "2026-02-24",
+        "sourceUrl": "https://example.com/stf/adpf-779",
+        "summary": "Julgou procedente arguição para declarar que a tese da legítima defesa da honra é inconstitucional por ser manifestamente contrária aos princípios da dignidade da pessoa humana."
+      },
+      {
+        "case": "HC 200456",
+        "type": "Habeas Corpus",
+        "outcome": "Indeferido",
+        "date": "2026-02-17",
+        "sourceUrl": "https://example.com/stf/hc-200456",
+        "summary": "Indeferiu habeas corpus por entender que a condenação estava devidamente fundamentada e que as provas produzidas no processo eram lícitas."
+      },
+      {
+        "case": "MS 39012",
+        "type": "Mandado de Segurança",
+        "outcome": "Deferido",
+        "date": "2026-02-08",
+        "sourceUrl": "https://example.com/stf/ms-39012",
+        "summary": "Deferiu mandado de segurança para garantir a nomeação de candidata aprovada em concurso para cargo de delegada, afastando restrição discriminatória imposta por edital."
+      }
+    ]
+  },
+  {
+    "id": "ministro-epsilon",
+    "name": "Ministro Epsilon",
+    "role": "Ministro do STF",
+    "position": "Ministro",
+    "appointedBy": "Presidente Quaternário",
+    "appointedAt": "2009-10-23",
+    "birthYear": 1967,
+    "birthState": "São Paulo",
+    "education": "Universidade Privada B",
+    "photoUrl": "https://placehold.co/300x400/1a3a5c/ffffff?text=Epsilon",
+    "bio": "José Antonio Ministro Epsilon é natural de Marília (SP). Foi advogado do Partido dos Trabalhadores e Advogado-Geral da União antes de ser indicado ao STF. Presidiu o STF e o TSE entre 2018 e 2020.",
+    "news": [
+      {
+        "title": "Epsilon vota pela revisão da tese sobre prescritibilidade de crimes contra a administração",
+        "url": "https://example.com/noticias/toffoli-prescricao-crimes",
+        "source": "Conjur",
+        "publishedAt": "2026-03-15T12:00:00Z"
+      },
+      {
+        "title": "Ministro Epsilon defende diálogo entre os poderes em evento na Câmara dos Deputados",
+        "url": "https://example.com/noticias/toffoli-dialogo-poderes",
+        "source": "Valor Econômico",
+        "publishedAt": "2026-03-12T09:30:00Z"
+      },
+      {
+        "title": "Epsilon suspende decisão que determinava quebra de sigilo bancário sem autorização judicial",
+        "url": "https://example.com/noticias/toffoli-sigilo-bancario",
+        "source": "Folha de S.Paulo",
+        "publishedAt": "2026-03-08T14:00:00Z"
+      },
+      {
+        "title": "STF: Epsilon pede vista em julgamento sobre tributação de planos de saúde",
+        "url": "https://example.com/noticias/toffoli-pedido-vista-saude",
+        "source": "O Globo",
+        "publishedAt": "2026-03-04T16:30:00Z"
+      },
+      {
+        "title": "Epsilon concede liminar suspendendo lei que proibia contratação de servidores temporários",
+        "url": "https://example.com/noticias/toffoli-servidores-temporarios",
+        "source": "G1",
+        "publishedAt": "2026-02-28T10:00:00Z"
+      }
+    ],
+    "decisions": [
+      {
+        "case": "RE 1063187",
+        "type": "Recurso Extraordinário",
+        "outcome": "Provido",
+        "date": "2026-03-09",
+        "sourceUrl": "https://example.com/stf/re-1063187",
+        "summary": "Fixou tese de repercussão geral reconhecendo a inconstitucionalidade da cobrança de IRPJ e CSLL sobre valores de juros sobre capital próprio pagos por empresas."
+      },
+      {
+        "case": "ADI 6931",
+        "type": "Ação Direta de Inconstitucionalidade",
+        "outcome": "Improcedente",
+        "date": "2026-03-03",
+        "sourceUrl": "https://example.com/stf/adi-6931",
+        "summary": "Julgou improcedente ação que questionava a constitucionalidade de lei federal que autorizava a terceirização de atividades-fim em empresas estatais."
+      },
+      {
+        "case": "HC 197890",
+        "type": "Habeas Corpus",
+        "outcome": "Deferido",
+        "date": "2026-02-22",
+        "sourceUrl": "https://example.com/stf/hc-197890",
+        "summary": "Concedeu habeas corpus para anular condenação por entender que o réu não foi adequadamente informado sobre seu direito ao silêncio durante interrogatório policial."
+      },
+      {
+        "case": "RMS 38765",
+        "type": "Recurso em Mandado de Segurança",
+        "outcome": "Provido",
+        "date": "2026-02-15",
+        "sourceUrl": "https://example.com/stf/rms-38765",
+        "summary": "Proveu recurso para garantir a servidora pública o direito à licença-maternidade de 180 dias, afastando interpretação restritiva da administração."
+      },
+      {
+        "case": "Pet 8765",
+        "type": "Petição",
+        "outcome": "Indeferida",
+        "date": "2026-02-05",
+        "sourceUrl": "https://example.com/stf/pet-8765",
+        "summary": "Indeferiu pedido de instauração de inquérito por ausência de indícios mínimos de autoria e materialidade delitiva nos fatos narrados."
+      }
+    ]
+  },
+  {
+    "id": "ministro-zeta",
+    "name": "Ministro Zeta",
+    "role": "Ministro do STF",
+    "position": "Ministro",
+    "appointedBy": "Presidente Primário",
+    "appointedAt": "2011-05-26",
+    "birthYear": 1953,
+    "birthState": "Rio de Janeiro",
+    "education": "Universidade Pública I",
+    "photoUrl": "https://placehold.co/300x400/1a3a5c/ffffff?text=Zeta",
+    "bio": "Ministro Zeta é natural do Rio de Janeiro (RJ). Foi ministro do Superior Tribunal de Justiça (STJ) antes de ser indicado ao STF. É professor titular de Direito Processual Civil da Univ I e autor de obras clássicas na área. Presidiu o STF entre 2020 e 2022.",
+    "news": [
+      {
+        "title": "Zeta apresenta proposta de reforma do Código de Processo Civil ao Congresso",
+        "url": "https://example.com/noticias/fux-reforma-cpc",
+        "source": "Conjur",
+        "publishedAt": "2026-03-16T09:00:00Z"
+      },
+      {
+        "title": "Ministro Zeta vota pela constitucionalidade do marco regulatório das startups",
+        "url": "https://example.com/noticias/fux-marco-startups",
+        "source": "Valor Econômico",
+        "publishedAt": "2026-03-13T11:00:00Z"
+      },
+      {
+        "title": "Zeta suspende execução de sentença bilionária contra empresa de telecomunicações",
+        "url": "https://example.com/noticias/fux-suspende-execucao-telecom",
+        "source": "Estadão",
+        "publishedAt": "2026-03-10T15:30:00Z"
+      },
+      {
+        "title": "Ministro Zeta defende modernização do sistema recursal brasileiro em congresso jurídico",
+        "url": "https://example.com/noticias/fux-sistema-recursal",
+        "source": "O Globo",
+        "publishedAt": "2026-03-06T14:00:00Z"
+      },
+      {
+        "title": "Zeta nega pedido de liminar em ação sobre competência da Justiça do Trabalho",
+        "url": "https://example.com/noticias/fux-justica-trabalho",
+        "source": "Folha de S.Paulo",
+        "publishedAt": "2026-03-02T10:00:00Z"
+      }
+    ],
+    "decisions": [
+      {
+        "case": "RE 1121633",
+        "type": "Recurso Extraordinário",
+        "outcome": "Provido",
+        "date": "2026-03-13",
+        "sourceUrl": "https://example.com/stf/re-1121633",
+        "summary": "Fixou tese de repercussão geral estabelecendo que a Justiça Federal é competente para julgar crimes praticados por meio da internet quando os efeitos se propagam em mais de um estado."
+      },
+      {
+        "case": "ADI 7210",
+        "type": "Ação Direta de Inconstitucionalidade",
+        "outcome": "Procedente",
+        "date": "2026-03-07",
+        "sourceUrl": "https://example.com/stf/adi-7210",
+        "summary": "Declarou inconstitucional lei estadual que criava taxa judiciária sem relação com o custo do serviço prestado, por violação ao princípio da proporcionalidade."
+      },
+      {
+        "case": "AgR no RE 987654",
+        "type": "Agravo Regimental",
+        "outcome": "Improvido",
+        "date": "2026-02-26",
+        "sourceUrl": "https://example.com/stf/agr-re-987654",
+        "summary": "Negou provimento a agravo regimental, mantendo decisão que reconheceu a prescrição da pretensão executória em processo de execução fiscal."
+      },
+      {
+        "case": "SL 1456",
+        "type": "Suspensão de Liminar",
+        "outcome": "Deferida",
+        "date": "2026-02-20",
+        "sourceUrl": "https://example.com/stf/sl-1456",
+        "summary": "Deferiu pedido de suspensão de liminar concedida por tribunal de segunda instância que havia determinado a imediata implementação de sistema de cotas em concurso público estadual."
+      },
+      {
+        "case": "HC 200123",
+        "type": "Habeas Corpus",
+        "outcome": "Indeferido",
+        "date": "2026-02-10",
+        "sourceUrl": "https://example.com/stf/hc-200123",
+        "summary": "Indeferiu habeas corpus por entender que a questão processual suscitada não configura constrangimento ilegal apto a justificar a concessão da ordem."
+      }
+    ]
+  },
+  {
+    "id": "ministro-eta",
+    "name": "Ministro Eta",
+    "role": "Ministro do STF",
+    "position": "Ministro",
+    "appointedBy": "Presidente Terciário",
+    "appointedAt": "2020-05-14",
+    "birthYear": 1967,
+    "birthState": "Minas Gerais",
+    "education": "Universidade Pública C",
+    "photoUrl": "https://placehold.co/300x400/1a3a5c/ffffff?text=Eta",
+    "bio": "Kassio Ministro Eta é natural de Picos (PI). Foi desembargador do Tribunal Regional Federal da 1ª Região (TRF-1) antes de ser indicado ao STF. É doutor em Direito Constitucional e especialista em direito eleitoral.",
+    "news": [
+      {
+        "title": "Ministro Eta vota pela constitucionalidade de decreto que regulamenta o porte de armas",
+        "url": "https://example.com/noticias/nunes-porte-armas",
+        "source": "Conjur",
+        "publishedAt": "2026-03-15T10:00:00Z"
+      },
+      {
+        "title": "Ministro defende interpretação restritiva das hipóteses de cabimento de ADPF",
+        "url": "https://example.com/noticias/nunes-adpf-restritiva",
+        "source": "Valor Econômico",
+        "publishedAt": "2026-03-11T14:00:00Z"
+      },
+      {
+        "title": "Ministro Eta nega pedido de liminar em ação sobre reforma da previdência estadual",
+        "url": "https://example.com/noticias/nunes-previdencia-estadual",
+        "source": "G1",
+        "publishedAt": "2026-03-08T09:30:00Z"
+      },
+      {
+        "title": "Ministro profere voto divergente em caso sobre responsabilidade civil do Estado",
+        "url": "https://example.com/noticias/nunes-responsabilidade-estado",
+        "source": "Folha de S.Paulo",
+        "publishedAt": "2026-03-05T16:00:00Z"
+      },
+      {
+        "title": "Ministro Eta participa de seminário sobre direito eleitoral comparado",
+        "url": "https://example.com/noticias/nunes-direito-eleitoral",
+        "source": "O Globo",
+        "publishedAt": "2026-03-01T11:00:00Z"
+      }
+    ],
+    "decisions": [
+      {
+        "case": "ADI 6672",
+        "type": "Ação Direta de Inconstitucionalidade",
+        "outcome": "Improcedente",
+        "date": "2026-03-11",
+        "sourceUrl": "https://example.com/stf/adi-6672",
+        "summary": "Julgou improcedente ação que questionava a constitucionalidade de decreto presidencial que alterava regras de acesso a informações classificadas como sigilosas."
+      },
+      {
+        "case": "RE 1094870",
+        "type": "Recurso Extraordinário",
+        "outcome": "Improvido",
+        "date": "2026-03-05",
+        "sourceUrl": "https://example.com/stf/re-1094870",
+        "summary": "Negou provimento a recurso extraordinário, mantendo acórdão que reconheceu a responsabilidade objetiva do Estado por danos causados por agente público fora do exercício da função."
+      },
+      {
+        "case": "HC 198432",
+        "type": "Habeas Corpus",
+        "outcome": "Indeferido",
+        "date": "2026-02-28",
+        "sourceUrl": "https://example.com/stf/hc-198432",
+        "summary": "Indeferiu habeas corpus por entender que a dosimetria da pena foi corretamente aplicada pelo tribunal de origem, sem excesso ou ilegalidade."
+      },
+      {
+        "case": "ADPF 801",
+        "type": "Arguição de Descumprimento de Preceito Fundamental",
+        "outcome": "Não conhecida",
+        "date": "2026-02-21",
+        "sourceUrl": "https://example.com/stf/adpf-801",
+        "summary": "Não conheceu da arguição por ausência de subsidiariedade, entendendo que existiam outros meios processuais adequados para questionar o ato impugnado."
+      },
+      {
+        "case": "MS 38543",
+        "type": "Mandado de Segurança",
+        "outcome": "Indeferido",
+        "date": "2026-02-14",
+        "sourceUrl": "https://example.com/stf/ms-38543",
+        "summary": "Indeferiu mandado de segurança por entender que o ato impugnado era discricionário e não violava direito líquido e certo do impetrante."
+      }
+    ]
+  },
+  {
+    "id": "ministro-theta",
+    "name": "Ministro Theta",
+    "role": "Ministro do STF",
+    "position": "Ministro",
+    "appointedBy": "Presidente Terciário",
+    "appointedAt": "2021-12-16",
+    "birthYear": 1972,
+    "birthState": "Bahia",
+    "education": "Universidade Pública F",
+    "photoUrl": "https://placehold.co/300x400/1a3a5c/ffffff?text=Theta",
+    "bio": "André Luiz de Almeida Mendonça é natural de Alagoinhas (BA). Foi Advogado-Geral da União e Ministro da Justiça antes de ser indicado ao STF. É pastor presbiteriano e foi o primeiro ministro do STF autodeclarado evangélico.",
+    "news": [
+      {
+        "title": "Ministro Theta vota pela constitucionalidade de lei que protege liberdade religiosa em locais de trabalho",
+        "url": "https://example.com/noticias/mendonca-liberdade-religiosa",
+        "source": "Conjur",
+        "publishedAt": "2026-03-14T11:00:00Z"
+      },
+      {
+        "title": "Ministro defende limites ao poder investigatório do Ministério Público",
+        "url": "https://example.com/noticias/mendonca-mp-investigatorio",
+        "source": "Valor Econômico",
+        "publishedAt": "2026-03-10T14:30:00Z"
+      },
+      {
+        "title": "Ministro Theta suspende decisão que determinava demolição de templo religioso",
+        "url": "https://example.com/noticias/mendonca-templo-religioso",
+        "source": "G1",
+        "publishedAt": "2026-03-07T10:00:00Z"
+      },
+      {
+        "title": "Ministro do STF participa de evento sobre liberdade de expressão e redes sociais",
+        "url": "https://example.com/noticias/mendonca-liberdade-expressao",
+        "source": "Folha de S.Paulo",
+        "publishedAt": "2026-03-03T15:00:00Z"
+      },
+      {
+        "title": "Ministro Theta nega liminar em ação que questionava decreto sobre regularização fundiária",
+        "url": "https://example.com/noticias/mendonca-regularizacao-fundiaria",
+        "source": "Estadão",
+        "publishedAt": "2026-02-27T09:00:00Z"
+      }
+    ],
+    "decisions": [
+      {
+        "case": "ADI 7089",
+        "type": "Ação Direta de Inconstitucionalidade",
+        "outcome": "Improcedente",
+        "date": "2026-03-10",
+        "sourceUrl": "https://example.com/stf/adi-7089",
+        "summary": "Julgou improcedente ação que questionava lei que garantia a manifestações religiosas o mesmo tratamento dado a manifestações culturais em espaços públicos."
+      },
+      {
+        "case": "HC 201567",
+        "type": "Habeas Corpus",
+        "outcome": "Deferido",
+        "date": "2026-03-04",
+        "sourceUrl": "https://example.com/stf/hc-201567",
+        "summary": "Concedeu habeas corpus para reconhecer nulidade de interceptação telefônica realizada sem renovação judicial tempestiva da autorização, determinando o desentranhamento das provas."
+      },
+      {
+        "case": "RE 1098765",
+        "type": "Recurso Extraordinário",
+        "outcome": "Provido",
+        "date": "2026-02-26",
+        "sourceUrl": "https://example.com/stf/re-1098765",
+        "summary": "Proveu recurso para reconhecer que a imunidade tributária das entidades religiosas abrange também os imóveis utilizados para atividades acessórias ao culto, como escolas e cemitérios."
+      },
+      {
+        "case": "ADPF 795",
+        "type": "Arguição de Descumprimento de Preceito Fundamental",
+        "outcome": "Procedente",
+        "date": "2026-02-18",
+        "sourceUrl": "https://example.com/stf/adpf-795",
+        "summary": "Julgou procedente arguição para declarar inconstitucional resolução municipal que impedia a realização de cultos religiosos após as 22h, por violação à liberdade de culto."
+      },
+      {
+        "case": "MS 39234",
+        "type": "Mandado de Segurança",
+        "outcome": "Deferido",
+        "date": "2026-02-11",
+        "sourceUrl": "https://example.com/stf/ms-39234",
+        "summary": "Deferiu mandado de segurança para garantir a uma entidade religiosa o direito de participar de processo licitatório para prestação de serviços assistenciais, afastando restrição discriminatória."
+      }
+    ]
+  },
+  {
+    "id": "ministro-iota",
+    "name": "Ministro Iota",
+    "role": "Ministro do STF",
+    "position": "Ministro",
+    "appointedBy": "Presidente Quaternário",
+    "appointedAt": "2023-08-03",
+    "birthYear": 1975,
+    "birthState": "São Paulo",
+    "education": "Universidade Privada B",
+    "photoUrl": "https://placehold.co/300x400/1a3a5c/ffffff?text=Iota",
+    "bio": "Ministro Iota Martins é natural de São Paulo (SP). Foi advogado criminalista de renome nacional, conhecido por ter defendido o presidente Lula nos processos da Operação Lava Jato. É o ministro mais jovem da atual composição do STF.",
+    "news": [
+      {
+        "title": "Iota vota pela revisão da jurisprudência sobre colaboração premiada em casos complexos",
+        "url": "https://example.com/noticias/zanin-colaboracao-premiada",
+        "source": "Conjur",
+        "publishedAt": "2026-03-17T09:00:00Z"
+      },
+      {
+        "title": "Ministro Iota defende garantias processuais em julgamento sobre prisão cautelar",
+        "url": "https://example.com/noticias/zanin-prisao-cautelar",
+        "source": "Folha de S.Paulo",
+        "publishedAt": "2026-03-14T13:00:00Z"
+      },
+      {
+        "title": "Iota concede liminar suspendendo investigação por ausência de fundamentação adequada",
+        "url": "https://example.com/noticias/zanin-liminar-investigacao",
+        "source": "O Globo",
+        "publishedAt": "2026-03-11T10:00:00Z"
+      },
+      {
+        "title": "Ministro mais jovem do STF completa dois anos e meio na corte",
+        "url": "https://example.com/noticias/zanin-dois-anos-stf",
+        "source": "G1",
+        "publishedAt": "2026-03-07T08:00:00Z"
+      },
+      {
+        "title": "Iota vota pela inconstitucionalidade de dispositivo que restringia direito de defesa",
+        "url": "https://example.com/noticias/zanin-direito-defesa",
+        "source": "Estadão",
+        "publishedAt": "2026-03-03T14:00:00Z"
+      }
+    ],
+    "decisions": [
+      {
+        "case": "HC 202345",
+        "type": "Habeas Corpus",
+        "outcome": "Deferido",
+        "date": "2026-03-15",
+        "sourceUrl": "https://example.com/stf/hc-202345",
+        "summary": "Concedeu habeas corpus para anular acordo de colaboração premiada celebrado sem a presença do defensor constituído do colaborador, por violação ao princípio da ampla defesa."
+      },
+      {
+        "case": "ADI 7398",
+        "type": "Ação Direta de Inconstitucionalidade",
+        "outcome": "Procedente",
+        "date": "2026-03-09",
+        "sourceUrl": "https://example.com/stf/adi-7398",
+        "summary": "Declarou inconstitucional dispositivo legal que autorizava a utilização de provas obtidas em investigação criminal em processo administrativo disciplinar sem nova autorização judicial."
+      },
+      {
+        "case": "RE 1134678",
+        "type": "Recurso Extraordinário",
+        "outcome": "Provido",
+        "date": "2026-03-02",
+        "sourceUrl": "https://example.com/stf/re-1134678",
+        "summary": "Fixou tese de repercussão geral estabelecendo que o prazo de prescrição da pretensão punitiva do Estado em crimes de colarinho branco se conta da data do efetivo resultado lesivo."
+      },
+      {
+        "case": "Pet 10234",
+        "type": "Petição",
+        "outcome": "Deferida",
+        "date": "2026-02-23",
+        "sourceUrl": "https://example.com/stf/pet-10234",
+        "summary": "Deferiu pedido de instauração de inquérito para apurar suposta prática de crime de abuso de autoridade por agente público no exercício de atividade investigativa."
+      },
+      {
+        "case": "HC 199876",
+        "type": "Habeas Corpus",
+        "outcome": "Indeferido",
+        "date": "2026-02-16",
+        "sourceUrl": "https://example.com/stf/hc-199876",
+        "summary": "Indeferiu habeas corpus por entender que a prisão preventiva estava devidamente fundamentada na necessidade de garantia da ordem pública e conveniência da instrução criminal."
+      }
+    ]
+  },
+  {
+    "id": "ministro-kappa",
+    "name": "Ministro Kappa",
+    "role": "Ministro do STF",
+    "position": "Ministro",
+    "appointedBy": "Presidente Quaternário",
+    "appointedAt": "2023-06-29",
+    "birthYear": 1968,
+    "birthState": "Maranhão",
+    "education": "Universidade Pública D",
+    "photoUrl": "https://placehold.co/300x400/1a3a5c/ffffff?text=Kappa",
+    "bio": "Ministro Kappa de Castro e Costa é natural de São Luís (MA). Foi juiz federal, deputado federal, governador do Maranhão por dois mandatos e Ministro da Justiça antes de ser indicado ao STF. É doutor em Direito Público.",
+    "news": [
+      {
+        "title": "Kappa determina bloqueio de emendas parlamentares impositivas por descumprimento de normas de transparência",
+        "url": "https://example.com/noticias/dino-emendas-parlamentares",
+        "source": "Folha de S.Paulo",
+        "publishedAt": "2026-03-16T15:00:00Z"
+      },
+      {
+        "title": "Ministro Kappa vota pela constitucionalidade de política de segurança pública federal",
+        "url": "https://example.com/noticias/dino-seguranca-publica",
+        "source": "O Globo",
+        "publishedAt": "2026-03-13T12:00:00Z"
+      },
+      {
+        "title": "Ministro Kappa suspende decreto estadual que restringia acesso a áreas de proteção ambiental",
+        "url": "https://example.com/noticias/dino-areas-protecao",
+        "source": "G1",
+        "publishedAt": "2026-03-10T09:00:00Z"
+      },
+      {
+        "title": "Kappa profere voto pela inconstitucionalidade de emenda que alterava regras de distribuição do FPM",
+        "url": "https://example.com/noticias/dino-fpm",
+        "source": "Valor Econômico",
+        "publishedAt": "2026-03-06T11:00:00Z"
+      },
+      {
+        "title": "Ministro do STF participa de audiência pública sobre segurança pública nos estados",
+        "url": "https://example.com/noticias/dino-audiencia-seguranca",
+        "source": "Conjur",
+        "publishedAt": "2026-03-02T14:00:00Z"
+      }
+    ],
+    "decisions": [
+      {
+        "case": "ADPF 854",
+        "type": "Arguição de Descumprimento de Preceito Fundamental",
+        "outcome": "Medida Cautelar Deferida",
+        "date": "2026-03-14",
+        "sourceUrl": "https://example.com/stf/adpf-854",
+        "summary": "Deferiu medida cautelar para suspender repasses de emendas parlamentares impositivas a municípios que não apresentaram prestação de contas nos prazos legais."
+      },
+      {
+        "case": "ADI 7456",
+        "type": "Ação Direta de Inconstitucionalidade",
+        "outcome": "Procedente",
+        "date": "2026-03-08",
+        "sourceUrl": "https://example.com/stf/adi-7456",
+        "summary": "Declarou inconstitucional lei estadual que autorizava a Polícia Militar a realizar operações de busca e apreensão coletiva em comunidades sem mandado judicial individualizado."
+      },
+      {
+        "case": "RE 1145678",
+        "type": "Recurso Extraordinário",
+        "outcome": "Provido",
+        "date": "2026-03-01",
+        "sourceUrl": "https://example.com/stf/re-1145678",
+        "summary": "Fixou tese de repercussão geral reconhecendo que municípios têm competência para legislar sobre segurança alimentar em estabelecimentos comerciais de seu território."
+      },
+      {
+        "case": "STA 1234",
+        "type": "Suspensão de Tutela Antecipada",
+        "outcome": "Indeferida",
+        "date": "2026-02-24",
+        "sourceUrl": "https://example.com/stf/sta-1234",
+        "summary": "Indeferiu pedido de suspensão de tutela antecipada que havia determinado a imediata liberação de recursos do Fundo de Manutenção da Educação Básica para um estado."
+      },
+      {
+        "case": "HC 201890",
+        "type": "Habeas Corpus",
+        "outcome": "Deferido",
+        "date": "2026-02-17",
+        "sourceUrl": "https://example.com/stf/hc-201890",
+        "summary": "Concedeu habeas corpus para reconhecer constrangimento ilegal na manutenção de prisão preventiva de réu primário acusado de crime sem violência, determinando a substituição por medidas cautelares."
+      }
+    ]
+  },
+  {
+    "id": "ministro-lambda",
+    "name": "Ministro Lambda",
+    "role": "Ministro do STF",
+    "position": "Ministro",
+    "appointedBy": "Presidente Primário",
+    "appointedAt": "2014-03-05",
+    "birthYear": 1948,
+    "birthState": "São Paulo",
+    "education": "Universidade Pública H",
+    "photoUrl": "https://placehold.co/300x400/1a3a5c/ffffff?text=Lambda",
+    "bio": "Ministro Lambda é natural de São Paulo (SP). Foi desembargador do Tribunal de Justiça de São Paulo e ministro do STF entre 2006 e 2022, quando se aposentou. Retornou à corte em 2024 após nova indicação. É doutor em Direito do Estado pela Univ H e presidiu o STF entre 2012 e 2014.",
+    "news": [
+      {
+        "title": "Lambda vota pela constitucionalidade de lei que regulamenta o trabalho de plataformas digitais",
+        "url": "https://example.com/noticias/lewandowski-plataformas-digitais",
+        "source": "Conjur",
+        "publishedAt": "2026-03-15T13:00:00Z"
+      },
+      {
+        "title": "Ministro defende maior transparência nos processos de nomeação para cargos públicos",
+        "url": "https://example.com/noticias/lewandowski-transparencia-nomeacoes",
+        "source": "Valor Econômico",
+        "publishedAt": "2026-03-12T10:00:00Z"
+      },
+      {
+        "title": "Lambda concede liminar em caso sobre direitos trabalhistas de entregadores de aplicativo",
+        "url": "https://example.com/noticias/lewandowski-entregadores",
+        "source": "Folha de S.Paulo",
+        "publishedAt": "2026-03-09T14:00:00Z"
+      },
+      {
+        "title": "Ministro do STF participa de debate sobre inteligência artificial e direito",
+        "url": "https://example.com/noticias/lewandowski-ia-direito",
+        "source": "O Globo",
+        "publishedAt": "2026-03-05T09:00:00Z"
+      },
+      {
+        "title": "Lambda vota pela inconstitucionalidade de decreto que reduzia alíquota de imposto de exportação",
+        "url": "https://example.com/noticias/lewandowski-imposto-exportacao",
+        "source": "G1",
+        "publishedAt": "2026-03-01T16:00:00Z"
+      }
+    ],
+    "decisions": [
+      {
+        "case": "RE 1167509",
+        "type": "Recurso Extraordinário",
+        "outcome": "Provido",
+        "date": "2026-03-12",
+        "sourceUrl": "https://example.com/stf/re-1167509",
+        "summary": "Fixou tese de repercussão geral reconhecendo vínculo empregatício entre entregadores de aplicativos e as plataformas digitais, com todos os direitos trabalhistas decorrentes."
+      },
+      {
+        "case": "ADI 7312",
+        "type": "Ação Direta de Inconstitucionalidade",
+        "outcome": "Procedente",
+        "date": "2026-03-06",
+        "sourceUrl": "https://example.com/stf/adi-7312",
+        "summary": "Declarou inconstitucional decreto presidencial que alterava regras de tributação de operações de câmbio sem prévia autorização legislativa, por violação ao princípio da legalidade tributária."
+      },
+      {
+        "case": "HC 200789",
+        "type": "Habeas Corpus",
+        "outcome": "Deferido",
+        "date": "2026-02-29",
+        "sourceUrl": "https://example.com/stf/hc-200789",
+        "summary": "Concedeu habeas corpus para reconhecer que a utilização de inteligência artificial na análise de risco para decretação de prisão preventiva, sem supervisão humana adequada, viola o devido processo legal."
+      },
+      {
+        "case": "ADPF 823",
+        "type": "Arguição de Descumprimento de Preceito Fundamental",
+        "outcome": "Procedente",
+        "date": "2026-02-22",
+        "sourceUrl": "https://example.com/stf/adpf-823",
+        "summary": "Julgou procedente arguição para declarar inconstitucional resolução do Conselho Nacional de Justiça que autorizava o uso de sistemas algorítmicos para triagem de processos sem transparência sobre os critérios utilizados."
+      },
+      {
+        "case": "MS 39456",
+        "type": "Mandado de Segurança",
+        "outcome": "Deferido",
+        "date": "2026-02-15",
+        "sourceUrl": "https://example.com/stf/ms-39456",
+        "summary": "Deferiu mandado de segurança para garantir a trabalhador de plataforma digital o acesso aos dados algorítmicos que determinaram sua desativação da plataforma, com base no direito à informação."
+      }
+    ]
+  }
+]
