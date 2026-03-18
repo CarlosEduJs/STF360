@@ -7,6 +7,7 @@ import { Input } from '@workspace/ui/components/input';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@workspace/ui/components/select';
 import { Avatar, AvatarFallback, AvatarImage } from '@workspace/ui/components/avatar';
 import { getAllMinistersSummary, formatAppointmentDate, yearsOnCourt } from '@/lib/data/mock-data';
+import { useQueryState } from 'nuqs';
 import type { MinisterSummary } from '@/types';
 
 const ministers = getAllMinistersSummary();
@@ -16,8 +17,8 @@ const appointedByOptions = [...new Set(ministers.map((m) => m.appointedBy))];
 
 export default function MinistersCards() {
   const [search, setSearch] = useState('');
-  const [positionFilter, setPositionFilter] = useState<string>('Todos os cargos');
-  const [appointedByFilter, setAppointedByFilter] = useState<string>('Todos');
+  const [positionFilter, setPositionFilter] = useQueryState('position', { defaultValue: 'Todos os cargos' });
+  const [appointedByFilter, setAppointedByFilter] = useQueryState('appointedBy', { defaultValue: 'Todos' });
 
   const filtered = useMemo(() => {
     return ministers.filter((m) => {
