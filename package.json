@@ -11,9 +11,8 @@
   },
   "devDependencies": {
     "@workspace/typescript-config": "workspace:*",
+    "oxfmt": "^0.41.0",
     "oxlint": "^1.56.0",
-    "prettier": "^3.8.1",
-    "prettier-plugin-tailwindcss": "^0.7.2",
     "turbo": "^2.8.17",
     "typescript": "5.9.3"
   },
