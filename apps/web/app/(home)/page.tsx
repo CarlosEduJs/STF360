@@ -1,4 +1,5 @@
 import MinistersCards from "@/components/ministers-cards";
+import LatestNews from "@/components/latest-news";
 
 export default function Page() {
   return (
@@ -8,6 +9,7 @@ export default function Page() {
         <p className="text-lg font-medium">Acompanhe o Supremo Tribunal Federal em tempo real. Decisões e noticias mais recentes e com fontes.</p>
       </div>
       <MinistersCards />
+      <LatestNews />
     </div>
   )
 }

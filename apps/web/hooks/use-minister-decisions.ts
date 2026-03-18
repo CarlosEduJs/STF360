@@ -27,12 +27,14 @@ interface UseMinisterDecisionsOptions {
 export function useMinisterDecisions(ministerId: string, options: UseMinisterDecisionsOptions = {}) {
   const { limit = 5, type, enabled = true } = options;
 
+  const isValid = enabled && !!ministerId && ministerId !== 'undefined';
+
   const params = new URLSearchParams();
   if (limit !== 5) params.set('limit', String(limit));
   if (type) params.set('type', type);
 
   const query = params.toString();
-  const url = enabled ? `/api/decisions/${ministerId}${query ? `?${query}` : ''}` : null;
+  const url = isValid ? `/api/decisions/${ministerId}${query ? `?${query}` : ''}` : null;
 
   const { data, isLoading, error, refetch } = useFetch<DecisionsResponse>(url);
 

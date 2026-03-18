@@ -23,13 +23,14 @@ export function generateStaticParams() {
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
-  const minister = getMinisterById(params.id);
+  const { id } = await params;
+  const minister = getMinisterById(id);
 
   if (!minister) {
     return NextResponse.json(
-      { error: `Ministro "${params.id}" não encontrado.` },
+      { error: `Ministro "${id}" não encontrado.` },
       { status: 404 }
     );
   }
@@ -37,14 +38,13 @@ export async function GET(
   const limitParam = request.nextUrl.searchParams.get('limit');
   const limit = limitParam ? parseInt(limitParam, 10) : 5;
 
-  const news = getMinisterNews(params.id, limit);
+  const news = getMinisterNews(id, limit);
 
   return NextResponse.json({
-    ministerId: params.id,
+    ministerId: id,
     ministerName: minister.name,
     count: news.length,
     news,
-    // Indica que os dados são mock -> remover em produção
     _mock: true,
   });
 }

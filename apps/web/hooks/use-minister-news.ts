@@ -26,11 +26,13 @@ interface UseMinisterNewsOptions {
 export function useMinisterNews(ministerId: string, options: UseMinisterNewsOptions = {}) {
   const { limit = 5, enabled = true } = options;
 
+  const isValid = enabled && !!ministerId && ministerId !== 'undefined';
+
   const params = new URLSearchParams();
   if (limit !== 5) params.set('limit', String(limit));
 
   const query = params.toString();
-  const url = enabled ? `/api/news/${ministerId}${query ? `?${query}` : ''}` : null;
+  const url = isValid ? `/api/news/${ministerId}${query ? `?${query}` : ''}` : null;
 
   const { data, isLoading, error, refetch } = useFetch<NewsResponse>(url);
 
